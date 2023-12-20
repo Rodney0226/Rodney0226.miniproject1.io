@@ -1,0 +1,23 @@
+body{
+    background: url(wallpaper\ pc\,\ f\ 0dbe37e4-a140-42a4-90dc-f46040c1c1b7.png);
+    background-size: 200vh;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+nav{
+    background-color: rgb(29, 85, 15);
+   color: white;
+}
+
+#bg{
+    height: 960px;
+    width: 100vw;
+    position: absolute;
+    border-radius: 0%;
+
+}
