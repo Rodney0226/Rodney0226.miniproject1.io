@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+   
+    <!-- Nav -->
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+
+                <img class="rounded-5" src="wellnesslogo.jpeg.png" alt="">
+                
+                HappyLife</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">About Us</a>
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
+                    <a href="#" class="nav-item nav-link">Gallery</a>
+                    <li class="nav-item dropdown ">
+                        <a  class="nav-link dropdown-toggle" id="NavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Posts</a>
+                        <ul class="dropdown-menu" aria-labelledby="NavbarDropdown">
+                            <li><a class="dropdown-item" href="physical.html">Physical</a></li>
+                            <li><a class="dropdown-item" href="social.html">Social</a></li>
+                            <li><a class="dropdown-item" href="emotional.html">Emotional</a></li>
+                            <li><a class="dropdown-item" href="spiritual.html">Spiritual</a></li>
+                            <li><a class="dropdown-item" href="occupational.html">Occupational</a></li>
+                            <li><a class="dropdown-item" href="intellectual.html">Intellectual</a></li>
+                            <li><a class="dropdown-item" href="financial.html">Financial</a></li>
+                            <li><a class="dropdown-item" href="environmental.html">Environmental</a></li>
+                        </ul>
+                    </li> 
+                </div>
+                <div class="navbar-nav ms-auto ">
+                    <a href="#" class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#ModalRegister">Register</a>
+                    <a href="#" class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#ModalLogin">Log In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Modal -->
+      <div class="modal" id="ModalRegister" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 fw-bold">Sign Up</h4>
+                    <button class="close" data-bs-dismiss="modal" aria-labelledby="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <form action="">
+                        <div class="form-group mb-5">
+                            <i class="bi bi-person-circle"></i>
+                            <label class="form-label" for="FullName">Full Name</label>
+                            <input type="text" id="FullName" name="FullName" class="form-control">
+                        </div>
+
+                        <div class="form-group mb-5">
+                            <i class="bi bi-envelope"></i>
+                            <label class="form-label" for="Email">Email</label>
+                            <input type="email" id="Email" name="Email" class="form-control ">
+                        </div>
+
+                        <div class="form-group mb-5">
+                            <label class="form-label" for="Password">Password</label>
+                            <input type="password" id="Password" name="Password" class="form-control">
+                        </div> 
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 fw-bold">Log In</h4>
+                    <button class="close" data-dismiss="modal" aria-labelledby="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <form action="">
+                        <div class="form-group mb-5">
+                            <i class="bi bi-person-circle"></i>
+                            <label class="form-label" for="Username">Username</label>
+                            <input type="text" id="Username" name="Username" class="form-control">
+                        </div>
+
+                        <div class="form-group mb-5">
+                            <label class="form-label" for="Password">Password</label>
+                            <input type="password" id="Password" name="Password" class="form-control">
+                        </div> 
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+<article>
+    <div>
+        <h1>Environmental Wellness</h1>
+        <p>Environmental wellness refers to leading a lifestyle that values the relationship between ourselves, our community and the environment. The core principle of environmental wellness is respect—respect for all nature and all species living in it. </p>
+        <p>Foster your environmental wellness by:</p>
+        <p>Picking up trash.</p>
+        <p>Spending time outdoors. </p>
+        <p>Biking or walking for your commute.</p>
+        <p>Using reusable bags and water bottles.</p>
+        <p>Being mindful of your water use.</p>
+        <p>Recycling.</p>
+        <p>Going to the farmer’s market.</p>
+        <p>Turning off lights and computers.</p>
+        <p>Unplugging from technology.</p>
+        <p>Donating unwanted clothing.</p>
+    </div>
+</article>
+
+
+<footer>
+    <div>
+        <p class="text-white d-flex justify-content-center">Copyright &copy 2023</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
