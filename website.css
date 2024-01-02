@@ -1,7 +1,6 @@
-/* body{
-    background: url(wallpaper\ pc\,\ f\ 0dbe37e4-a140-42a4-90dc-f46040c1c1b7.png);
-    background-size: 200vh;
-} */
+body{
+    background-color: #dde8dd;
+}
 
 img{
     height: 40px;
@@ -9,69 +8,26 @@ img{
     border-radius: 50px;
 }
 
-.divisions img{
-    height: 220px;
-    width: 120px;
-}
 
 nav{
     background-color: rgb(29, 85, 15);
    color: white;
 }
 
-/* .physical{
-   
-    top: 120px;
-    left:1000px ;
+.h1{
+    color: #277529;
+    margin-bottom: 20px;
 }
 
-.emotional{
-   
-    top: 500px;
-    left: 1000px;
+main p{
+    padding-top: 20px;
 }
-
-.spiritual{
-    position: relative;
-    top: 310px;
-    left: 1200px;
-
-}
-
-.financial{
-    position: relative;
-    top: 310px;
-    left: 800px;
-}
-
-.environmental{
-    position: relative;
-    top: 170px;
-    left: 850px;
-}
-
-.vocational{
-    position: relative;
-    top: 170px;
-    left: 1140px;
-}
-
-.social{
-    position: relative;
-    top: 450px;
-    left: 1150px;
-}
-
-.intellectual{
-    position: relative;
-    top: 450px;
-    left: 850px;
-} */
 
 main{
     /* background-color: aqua; */
     grid-area: main;
-    padding: 20px;
+    padding: 100px;
+    padding-top: 40px;
 
 }
 
@@ -103,7 +59,7 @@ section{
     padding-top: 50px;
 
     display: grid;
-    grid-template-rows: 90px 140px 140px 90px 100px 120px 100px 100px ; 
+    grid-template-rows: 90px 140px 140px 90px 100px 0px 0px 0px ; 
     grid-template-columns: 0px 0px 90px 140px 140px 90px 100px 40px;
     
 }
@@ -111,6 +67,7 @@ section{
 .physical, .emotional, .spiritual, .financial, .environmental, .social, .vocational, .intellectual{
     height: 120px;
     width: 120px;
+
 }
 
 .item1{
@@ -217,4 +174,26 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.carouselphoto{
+    border-radius: 0;
+    z-index: 2;
+}
+
+.aboutus{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #207123;
+    padding-bottom: 50px;
+}
+
+.aboutus p{
+    color: black;
+}
+
+.environmentaltext,.emotionaltext,.financialtext,.intellectualtext,.occupationaltext,.physicaltext,.socialtext,.spiritualtext{
+    padding: 50px;
 }
