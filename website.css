@@ -156,7 +156,7 @@ section{
         padding: 10px;
         flex-direction: column;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         align-items: center;
     }
 } 
@@ -225,12 +225,9 @@ h5{
 }
 
 .aboutus{
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    text-align: center; 
+    padding: 50px;
     color: #12b922;
-    padding-bottom: 50px;
 }
 
 .aboutus p{
