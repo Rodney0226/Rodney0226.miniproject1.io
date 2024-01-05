@@ -1,7 +1,5 @@
 body{ 
-    /* background-color: #e4f4e4; */
     background-image: linear-gradient( rgb(228, 228, 228), rgb(206, 240, 199));
-
 } 
 
 img{
@@ -9,7 +7,6 @@ img{
     width: 40px;
     border-radius: 100px;
 }
-
 
 nav{
     background-color: rgb(29, 85, 15);
@@ -32,27 +29,21 @@ main p{
 }
 
 main{
-    /* background-color: aqua; */
     grid-area: main;
     padding: 100px;
     padding-top: 40px;
     padding-bottom: 0px;
-    /* background-color: #125688; */
-    
-
 }
 
 section{
-    /* background-color: aqua; */
     grid-area: section;
-    /* background-color: #4dca2e; */
 }
+
 footer{
     background-color: rgb(16, 144, 16);
     grid-area: footer;
     font-size: 14px;
 }
-
 
 .gridarea{
     display: grid;
@@ -64,15 +55,11 @@ footer{
     grid-template-rows:  1fr 50px;
     grid-template-columns: 1fr 1fr;
     margin: 0;
-    grid-gap: 10px;
-
-    
-    
+    grid-gap: 10px; 
 }
 
 section{
     padding-top: 50px;
-
     display: grid;
     grid-template-rows: 90px 140px 140px 90px 100px 0px 0px 0px ; 
     grid-template-columns: 0px 0px 90px 140px 140px 90px 100px 40px;
@@ -171,11 +158,6 @@ section{
     }
 } 
 
-/* .form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
 label {
     display: block;
     margin-bottom: 8px;
@@ -210,11 +192,6 @@ button:hover {
     opacity: 0.5;
 }
 
-.carousel-caption h1{
-    /* text-shadow: 5px 5px 5px black; */
-
-}
-
 .Copyright{
     display: flex;
     justify-content: center;
@@ -229,12 +206,7 @@ button:hover {
 
 h5{
     font-size: 20px;
-    /* border: 2px solid green; */
     text-align: center;
-    /* text-shadow: 5px 5px 5px black; */
-    
-    
-
 }
 
 .carouselbg{
@@ -254,12 +226,6 @@ h5{
 .environmentaltext,.emotionaltext,.financialtext,.intellectualtext,.occupationaltext,.physicaltext,.socialtext,.spiritualtext{
     padding: 50px;
 }
-
-
-
-/* article li{
-    line-height: 40px;
-} */
 
 .fa {
     padding: 20px;
@@ -303,8 +269,6 @@ h5{
   .icons{
     display: flex;
     justify-content: center;
-    /* border: 1px solid black; */
-    /* background-color: #8ae51b; */
   }
 
   .row{
